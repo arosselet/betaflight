@@ -68,8 +68,7 @@ adjrange 2 2 3 1800 2100 12 3 0 0
 set gyro_sync_denom = 2
 set gyro_lowpass_type = PT1
 set gyro_lowpass_hz = 0
-set acc_trim_pitch = -4
-set acc_trim_roll = 4
+set acc_trim_roll = 2
 set fpv_mix_degrees = 25
 set rx_spi_protocol = FRSKY_D
 set dshot_idle_value = 400
@@ -131,7 +130,6 @@ set osd_stat_battery = ON
 set osd_stat_min_rssi = OFF
 set osd_stat_max_curr = OFF
 set osd_stat_used_mah = OFF
-set osd_stat_max_alt = ON
 set osd_stat_bbox = OFF
 set osd_stat_bb_no = OFF
 set displayport_max7456_blk = 1

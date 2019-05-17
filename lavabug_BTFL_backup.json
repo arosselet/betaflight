@@ -53,8 +53,8 @@
 				"rcYawRate": 1.02
 			},
 			"AccTrim": [
-				-4,
-				4
+				0,
+				2
 			],
 			"ServoConfig": [
 				{
@@ -645,8 +645,8 @@
 				"rcYawRate": 1.02
 			},
 			"AccTrim": [
-				-4,
-				4
+				0,
+				2
 			],
 			"ServoConfig": [
 				{
@@ -1237,8 +1237,8 @@
 				"rcYawRate": 1.02
 			},
 			"AccTrim": [
-				-4,
-				4
+				0,
+				2
 			],
 			"ServoConfig": [
 				{
@@ -2234,7 +2234,7 @@
 		"pitch": 0,
 		"yaw": 0
 	},
-	"CRAFT_NAME": "Beta",
+	"CRAFT_NAME": "Lavabug",
 	"MIXER_CONFIG": {
 		"mixer": 3,
 		"reverseMotorDir": 1
@@ -2501,7 +2501,7 @@
 	"ARMING_CONFIG": {
 		"auto_disarm_delay": 5,
 		"disarm_kill_switch": 0,
-		"small_angle": 25
+		"small_angle": 30
 	},
 	"MOTOR_3D_CONFIG": {
 		"deadband3d_low": 1406,
@@ -2528,7 +2528,7 @@
 		"rxSpiProtocol": 8,
 		"rxSpiId": 0,
 		"rxSpiRfChannelCount": 0,
-		"fpvCamAngleDegrees": 25,
+		"fpvCamAngleDegrees": 35,
 		"rcSmoothingType": 1,
 		"rcSmoothingInputCutoff": 0,
 		"rcSmoothingDerivativeCutoff": 0,
@@ -2840,9 +2840,9 @@
 					"visible": true
 				}
 			],
-			"_beeperMask": 0
+			"_beeperMask": 4096
 		},
-		"dshotBeaconTone": 1,
+		"dshotBeaconTone": 2,
 		"dshotBeaconConditions": {
 			"_beepers": [
 				{
