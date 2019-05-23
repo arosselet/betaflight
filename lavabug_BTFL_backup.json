@@ -39,7 +39,7 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 1,
+				"RC_RATE": 0.75,
 				"RC_EXPO": 0.15,
 				"roll_pitch_rate": 0,
 				"roll_rate": 0.86,
@@ -50,7 +50,7 @@
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1500,
 				"RC_YAW_EXPO": 0.2,
-				"rcYawRate": 1.02
+				"rcYawRate": 0.75
 			},
 			"AccTrim": [
 				0,
@@ -136,8 +136,8 @@
 					"id": 1,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 900,
-						"end": 1200
+						"start": 1800,
+						"end": 2100
 					}
 				},
 				{
@@ -160,8 +160,8 @@
 					"id": 28,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 1800,
-						"end": 2100
+						"start": 900,
+						"end": 1200
 					}
 				},
 				{
@@ -631,7 +631,7 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 1,
+				"RC_RATE": 0.75,
 				"RC_EXPO": 0.15,
 				"roll_pitch_rate": 0,
 				"roll_rate": 0.86,
@@ -642,7 +642,7 @@
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1500,
 				"RC_YAW_EXPO": 0.2,
-				"rcYawRate": 1.02
+				"rcYawRate": 0.75
 			},
 			"AccTrim": [
 				0,
@@ -728,8 +728,8 @@
 					"id": 1,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 900,
-						"end": 1200
+						"start": 1800,
+						"end": 2100
 					}
 				},
 				{
@@ -752,8 +752,8 @@
 					"id": 28,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 1800,
-						"end": 2100
+						"start": 900,
+						"end": 1200
 					}
 				},
 				{
@@ -1223,7 +1223,7 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 1,
+				"RC_RATE": 0.75,
 				"RC_EXPO": 0.15,
 				"roll_pitch_rate": 0,
 				"roll_rate": 0.86,
@@ -1234,7 +1234,7 @@
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1500,
 				"RC_YAW_EXPO": 0.2,
-				"rcYawRate": 1.02
+				"rcYawRate": 0.75
 			},
 			"AccTrim": [
 				0,
@@ -1320,8 +1320,8 @@
 					"id": 1,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 900,
-						"end": 1200
+						"start": 1800,
+						"end": 2100
 					}
 				},
 				{
@@ -1344,8 +1344,8 @@
 					"id": 28,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 1800,
-						"end": 2100
+						"start": 900,
+						"end": 1200
 					}
 				},
 				{
