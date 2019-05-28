@@ -170,10 +170,15 @@ profile 1
 profile 2
 
 set iterm_relax_type = GYRO
-set i_pitch = 70
-set i_roll = 60
-set p_yaw = 50
-set i_yaw = 110
+set p_pitch = 79
+set i_pitch = 55
+set d_pitch = 55
+set p_roll = 72
+set i_roll = 45
+set d_roll = 50
+set p_yaw = 110
+set i_yaw = 125
+set d_yaw = 15
 
 # restore original profile selection
 profile 2
@@ -181,19 +186,19 @@ profile 2
 # rateprofile
 rateprofile 0
 
-set roll_expo = 15
-set pitch_expo = 15
-set yaw_expo = 20
-set roll_srate = 86
-set pitch_srate = 87
-set yaw_srate = 87
+set roll_rc_rate = 80
+set pitch_rc_rate = 80
+set yaw_rc_rate = 80
+set roll_srate = 90
+set pitch_srate = 90
+set yaw_srate = 90
 
 # rateprofile
 rateprofile 1
 
-set roll_rc_rate = 150
-set pitch_rc_rate = 150
-set yaw_rc_rate = 150
+set roll_rc_rate = 130
+set pitch_rc_rate = 130
+set yaw_rc_rate = 130
 set roll_expo = 15
 set pitch_expo = 15
 set yaw_expo = 20
@@ -227,7 +232,7 @@ rateprofile 5
 
 
 # restore original rateprofile selection
-rateprofile 2
+rateprofile 0
 
 # save configuration
 save
