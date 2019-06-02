@@ -96,16 +96,16 @@ set osd_rssi_pos = 2116
 set osd_tim_1_pos = 54
 set osd_tim_2_pos = 2164
 set osd_remaining_time_estimate_pos = 129
-set osd_flymode_pos = 2457
+set osd_flymode_pos = 409
 set osd_anti_gravity_pos = 2136
 set osd_g_force_pos = 136
 set osd_throttle_pos = 181
 set osd_vtx_channel_pos = 377
 set osd_crosshairs_pos = 2285
 set osd_ah_pos = 238
-set osd_current_pos = 385
+set osd_current_pos = 2178
 set osd_mah_drawn_pos = 353
-set osd_craft_name_pos = 2092
+set osd_craft_name_pos = 2091
 set osd_gps_speed_pos = 218
 set osd_gps_lon_pos = 82
 set osd_gps_lat_pos = 65
@@ -119,12 +119,12 @@ set osd_pid_pitch_pos = 455
 set osd_pid_yaw_pos = 487
 set osd_debug_pos = 1
 set osd_power_pos = 321
-set osd_pidrate_profile_pos = 345
+set osd_pidrate_profile_pos = 2486
 set osd_warnings_pos = 2409
 set osd_avg_cell_voltage_pos = 2148
 set osd_pit_ang_pos = 33
 set osd_rol_ang_pos = 65
-set osd_battery_usage_pos = 490
+set osd_battery_usage_pos = 2473
 set osd_disarmed_pos = 2443
 set osd_nheading_pos = 311
 set osd_nvario_pos = 279
@@ -189,16 +189,19 @@ rateprofile 0
 set roll_rc_rate = 200
 set pitch_rc_rate = 200
 set yaw_rc_rate = 130
-set roll_srate = 90
-set pitch_srate = 90
-set yaw_srate = 90
+set roll_expo = 15
+set pitch_expo = 15
+set yaw_expo = 20
+set roll_srate = 86
+set pitch_srate = 87
+set yaw_srate = 87
 
 # rateprofile
 rateprofile 1
 
-set roll_rc_rate = 130
+set roll_rc_rate = 180
 set pitch_rc_rate = 130
-set yaw_rc_rate = 130
+set yaw_rc_rate = 120
 set roll_expo = 15
 set pitch_expo = 15
 set yaw_expo = 20
@@ -209,9 +212,9 @@ set yaw_srate = 87
 # rateprofile
 rateprofile 2
 
-set roll_rc_rate = 200
-set pitch_rc_rate = 200
-set yaw_rc_rate = 200
+set roll_rc_rate = 160
+set pitch_rc_rate = 160
+set yaw_rc_rate = 110
 set roll_expo = 15
 set pitch_expo = 15
 set yaw_expo = 20
