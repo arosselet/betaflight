@@ -1,0 +1,133 @@
+diff all
+
+# version
+# Betaflight / MATEKF411RX (M41R) 4.0.0 Dec 30 2018 / 04:30:13 (be797d102) MSP API: 1.41
+
+board_name MATEKF411RX
+manufacturer_id 
+mcu_id 002e004b3437510332383735
+signature 
+
+# reset configuration to default settings
+defaults nosave
+
+# name
+name Pro series
+
+# resources
+
+# dmaopt
+
+# mixer
+
+# servo
+
+# servo mix
+
+
+# feature
+
+# beeper
+
+# beacon
+
+# map
+map TAER1234
+
+# serial
+serial 1 2048 115200 57600 0 115200
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 0 1350 2100 0 0
+aux 1 1 1 1300 1700 0 0
+aux 2 2 1 1700 2100 0 0
+aux 3 28 2 900 1300 0 0
+aux 4 35 2 1700 2100 0 0
+
+# adjrange
+
+# rxrange
+
+# vtx
+
+# rxfail
+
+# master
+set fpv_mix_degrees = 35
+set dshot_idle_value = 450
+set motor_pwm_protocol = DSHOT600
+set current_meter = NONE
+set yaw_motors_reversed = ON
+set small_angle = 180
+set pid_process_denom = 1
+set osd_warn_core_temp = OFF
+set osd_warn_rc_smoothing = OFF
+set osd_warn_fail_safe = OFF
+set osd_warn_launch_control = OFF
+set osd_vbat_pos = 2433
+set osd_rssi_pos = 2241
+set osd_tim_2_pos = 2455
+set osd_flymode_pos = 2423
+set osd_throttle_pos = 2401
+set osd_crosshairs_pos = 2285
+set osd_craft_name_pos = 2441
+set osd_warnings_pos = 2378
+set vtx_channel = 4
+set vtx_freq = 5800
+set vcd_video_system = PAL
+set frsky_spi_tx_id = 18,72
+set frsky_spi_offset = 78
+set frsky_spi_bind_hop_data = 0,25,50,75,100,125,150,175,200,225,15,40,65,92,115,140,165,190,215,5,30,55,80,105,130,155,180,205,230,20,45,70,95,120,145,170,195,222,10,35,60,85,110,135,160,185,210,0,0,0
+set frsky_x_rx_num = 1
+
+# profile
+profile 0
+
+
+# profile
+profile 1
+
+
+# profile
+profile 2
+
+
+# restore original profile selection
+profile 0
+
+# rateprofile
+rateprofile 0
+
+
+# rateprofile
+rateprofile 1
+
+
+# rateprofile
+rateprofile 2
+
+
+# rateprofile
+rateprofile 3
+
+
+# rateprofile
+rateprofile 4
+
+
+# rateprofile
+rateprofile 5
+
+
+# restore original rateprofile selection
+rateprofile 0
+
+# save configuration
+save
+# 
